@@ -9,8 +9,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/unsafe0x0/ai/v2/base"
-	"github.com/unsafe0x0/ai/v2/sdk"
+	"github.com/xerohard/ai/v2/base"
+	"github.com/xerohard/ai/v2/sdk"
 )
 
 type XaiProvider struct {

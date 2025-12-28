@@ -9,8 +9,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/unsafe0x0/ai/v2/base"
-	"github.com/unsafe0x0/ai/v2/sdk"
+	"github.com/xerohard/ai/v2/base"
+	"github.com/xerohard/ai/v2/sdk"
 )
 
 type OpenRouterProvider struct {
@@ -69,7 +69,7 @@ func (p *OpenRouterProvider) CallAPI(ctx context.Context, messages []sdk.Message
 
 	req.Header.Set("Authorization", "Bearer "+p.APIKey)
 	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("HTTP-Referer", "https://github.com/unsafe0x0/ai/v2")
+	req.Header.Set("HTTP-Referer", "https://github.com/xerohard/ai/v2")
 	req.Header.Set("X-Title", "unsafe0x0/ai")
 
 	resp, err := http.DefaultClient.Do(req)

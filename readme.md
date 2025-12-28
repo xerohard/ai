@@ -1,16 +1,16 @@
 # AI SDK
 
 <p align="left">
-    <a href="https://github.com/unsafe0x0/ai/releases/tag/v2.0.0">
+    <a href="https://github.com/xerohard/ai/releases/tag/v2.0.0">
         <img src="https://img.shields.io/badge/v2.0.0-blue.svg" alt="v2.0.0">
     </a>
     <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&labelColor=white" alt="Go">
     <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-    <a href="https://github.com/unsafe0x0/ai">
-        <img src="https://img.shields.io/github/stars/unsafe0x0/ai?style=social" alt="GitHub stars">
-        <img src="https://img.shields.io/github/forks/unsafe0x0/ai?style=social" alt="GitHub forks">
-        <img src="https://img.shields.io/github/issues/unsafe0x0/ai" alt="GitHub issues">
-        <img src="https://img.shields.io/github/last-commit/unsafe0x0/ai" alt="Last commit">
+    <a href="https://github.com/xerohard/ai">
+        <img src="https://img.shields.io/github/stars/xerohard/ai?style=social" alt="GitHub stars">
+        <img src="https://img.shields.io/github/forks/xerohard/ai?style=social" alt="GitHub forks">
+        <img src="https://img.shields.io/github/issues/xerohard/ai" alt="GitHub issues">
+        <img src="https://img.shields.io/github/last-commit/xerohard/ai" alt="Last commit">
     </a>
     <br/>
 </p>
@@ -90,7 +90,7 @@ example/                 # Example usage of the SDK
 Import the SDK in your Go project:
 
 ```go
-import "github.com/unsafe0x0/ai/v2"
+import "github.com/xerohard/ai/v2"
 ```
 
 ## Declaring Providers
@@ -169,7 +169,7 @@ if resp.Stream != nil {
 
 ## Examples
 
-All code examples for this SDK latest version can be found in the [ai-sdk-examples](https://github.com/unsafe0x0/ai-sdk-examples) repository.
+All code examples for this SDK latest version can be found in the [ai-sdk-examples](https://github.com/xerohard/ai-sdk-examples) repository.
 
 ## Contributing
 
@@ -189,8 +189,8 @@ If you find a bug or have a feature request, please open an issue on GitHub.
 
 ## Contributors
 
-<a href="https://github.com/unsafe0x0/ai/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=unsafe0x0/ai" />
+<a href="https://github.com/xerohard/ai/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=xerohard/ai" />
 </a>
 
 ---

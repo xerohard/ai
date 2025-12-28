@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/unsafe0x0/ai/v2/sdk"
+	"github.com/xerohard/ai/v2/sdk"
 )
 
 // parses a streaming JSON response and calls onChunk for each content chunk
